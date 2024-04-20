@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <getopt.h>
 #include <unistd.h>
 #include <linux/input.h>
 
@@ -16,7 +16,7 @@ ctrl_down = {.type = EV_KEY , .code = KEY_LEFTCTRL , .value = 1};
 void print_usage(FILE *stream, const char *program) {
     // clang-format off
     fprintf(stream,
-            "caps2esc - transforming the most useless key ever in the most useful one\n"
+            "lock2del - transforming the most useless key ever in the most useful one\n"
             "\n"
             "usage: %s [-h | [-m mode] [-t delay]]\n"
             "\n"

@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG -rdynamic CMakeFiles/lock2del.dir/lock2del.c.o -o lock2del 
