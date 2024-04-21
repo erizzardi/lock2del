@@ -1,6 +1,6 @@
 # lock2del
 
-Forked from [caps2esc]](https://gitlab.com/interception/linux/plugins/lock2del).
+Forked from [caps2esc](https://gitlab.com/interception/linux/plugins/lock2del).
 
 ## Dependencies
 
